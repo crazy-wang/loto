@@ -1,0 +1,231 @@
+body,ul,p,h1,h2,h3,h4,h5,h6{
+	margin:0px;
+	padding:0px;
+}
+body{
+	font:12px/1.5em "微软雅黑";
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.box980{
+	width:980px;
+	margin:0 auto;
+	/*background: #090;*/
+}
+#container{
+	position: relative;
+}
+/*top 开始*/
+#top{
+	position: relative;
+	background: #fff;
+}
+#top .box980{
+	text-align:right;
+	height: 25px;
+	padding-top: 5px;
+}
+#top .box980 span{
+	color:#ccc;
+}
+#top .box980 a{
+	color:#000;
+}
+/*header开始*/
+#header{
+	position: relative;
+	border-top:1px solid #ccc;
+	background: #eaf7ff;
+}
+#header .box980{
+	position: relative;
+	height:128px;
+}
+#header .right{
+	float:right;
+	margin-top: -60px;
+	margin-right: 250px;
+}
+#header .phone{
+	position:absolute;
+	right:60px;
+	top:33px;
+	font-size: 16px;
+}
+#header .phone span{
+	color:#ca0036;
+	font-size: 14px;
+}
+/*nav 开始*/
+#nav{
+	background: #187EC6;
+	overflow: hidden;
+	position: absolute;
+	width: 100%;
+	top:117px;
+}
+/*#nav:after{
+	display: block;
+	clear: both;
+	content: "";
+}*/
+#nav .box980{
+	position: relative;
+}
+#nav .box980 li{
+	float:left;
+	text-align: center;
+	width:105px;
+	height:30px;
+	padding-bottom: 3px;
+	font-size: 16px;
+	line-height: 27px;
+	margin-right: 10px;
+}
+#nav .box980 li a{
+	display: block;
+	color:#fff;	
+	padding:3px 0;
+
+}
+#nav ul li.hover a{
+	background: url(images/nav-hover_03.png) -1px;
+	color:#187EC6;
+}
+#nav ul a:hover{
+	background: url(images/nav-hover_03.png) -1px;
+	color:#187EC6;
+}
+/*banner 开始*/
+#banner{
+	background: #1265B1;
+	/*margin-top: 10px;*/
+	height:286px;
+}
+/*content 开始*/
+#content{
+	background:#EAF7FF;
+	padding-top:10px;
+	*zoom:1;
+}
+#content:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+#content .box980{
+	background:#fff;
+	position: relative;
+}
+#content .left{
+	/*margin-bottom: 80px;*/
+	padding-bottom: 80px;
+	background:#fff;
+	float:left;
+	position: relative;
+}
+#content .left .ggao span,#content .right .ggao span{
+	font-size: 18px;
+	background: url(images/pro-bg_03.png) no-repeat;
+	width:210px;
+	height:35px;
+	display:block;
+	color:#fff;
+	line-height: 35px;
+	margin-left: 12px;
+	padding-left: 12px;
+}
+#content .right .ggao span{
+	margin-left: 0px;
+}
+
+#content .left .main{
+	border:1px solid #ccc;
+	width:630px;
+	margin-left: 12px;
+	margin-top: 23px;
+	*zoom:1;
+}
+#content .left .main:after{
+	content:"";
+	display: block;
+	clear: both;
+}
+.left .main .con{
+	position: relative;
+	float:left;
+	width:640px;
+	text-align: center;
+	font-size: 14px;
+	height:180px;
+}
+.left .main .con h2{
+	background: url(images/t1.png) no-repeat;
+	position: absolute;
+	top:15px;
+	left:10px;
+	font-size: 16px;
+	color:#09f;
+	width:120px;
+}
+.left .con ul li{
+	float:left;
+	width:74px;
+	margin:52px 60px 30px 0px;
+}
+.left .con ul{
+	border-bottom:1px solid #ccc;
+	width: 580px;
+	margin-left: 30px;
+}
+.left .con ul img{
+	margin-bottom: 15px;
+}
+#content .right{
+	float:left;
+	width: 305px;
+	/*margin-left:10px;*/ 
+	padding-left: 20px;
+	padding-right: 10px;
+	position: relative;
+	background:#fff;
+	padding-bottom: 90px;
+}
+#content .right .main{
+	border:1px solid #ccc;
+	margin:15px 0px;
+}
+#content .right .main p,#content .right .main ul{
+	padding:5px 10px;
+	line-height: 26px;
+	color:#999;
+}
+#content .right .main .hl{
+	margin:20px 0 10px 265px; 
+	display: block;
+
+}
+.right .main li span{
+	margin-left: 35px;
+}
+/*footer 开始*/
+#footer{
+	background: url(images/footer_02.png) repeat-x;
+	height:195px;
+	color:#ccc;
+}
+#footer .link a{
+	color:#ccc;
+}
+#footer .link{
+	margin-bottom: 20px;
+}
+#footer .box980{
+	text-align: center;
+	position: relative;
+	padding-top: 50px;
+}
